@@ -100,12 +100,12 @@ Follow these steps to build a SAP Fiori App with Joule in ABAP Cloud
 
 | Exercises | -- |
 | ------------- |  -- |
-| [Getting Started](exercises/ex0/README.md) | -- |
-| [Exercise 1: Generate a SAP Fiori app using the ABAP Cloud Generator: Transactional App from Scratch](exercises/ex01/README.md) | -- |
-| ~~[Exercise 2: Enhance the CDS data model and Create CDS unit tests](exercises/ex02/README.md)~~ | -- |
-| ~~[Exercise 3: Analyze the ABAP helper class and create ABAP unit tests](exercises/ex03/README.md)~~ | -- |
-| ~~[Exercise 4: Add a validation](exercises/ex04/README.md)~~ | -- |
-| ~~[Exercise 5: Add a determination](exercises/ex05/README.md)~~ | -- |
+| ➡️ [Getting Started](exercises/ex0/README.md) | -- |
+| ➡️ [Exercise 1: Generate a SAP Fiori app using the ABAP Cloud Generator: Transactional App from Scratch](exercises/ex01/README.md) | -- |
+| ❌ ~~[Exercise 2: Enhance the CDS data model and Create CDS unit tests](exercises/ex02/README.md)~~ | -- |
+| ❌ ~~[Exercise 3: Analyze the ABAP helper class and create ABAP unit tests](exercises/ex03/README.md)~~ | -- |
+| ❌ ~~[Exercise 4: Add a validation](exercises/ex04/README.md)~~ | -- |
+| ❌ ~~[Exercise 5: Add a determination](exercises/ex05/README.md)~~ | -- |
 
 
 
@@ -113,8 +113,8 @@ Follow these steps to build a SAP Fiori App with Joule in ABAP Cloud
 
 | Exercises | -- |
 | ------------- |  -- |
-| [Exercise 6: Add a determination and enhance it with the ABAP AI SDK powered by ISLM](exercises/ex06/README.md) | -- |
-| ~~[Exercise 7: Play around with the ABAP Cloud Generator - Transactional App from Scratch](exercises/ex07/README.md)~~ | -- |
+| ➡️ [Exercise 6: Add a determination and enhance it with the ABAP AI SDK powered by ISLM](exercises/ex06/README.md) | -- |
+| ❌ ~~[Exercise 7: Play around with the ABAP Cloud Generator - Transactional App from Scratch](exercises/ex07/README.md)~~ | -- |
 
    
 ## Recordings
