@@ -428,7 +428,7 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
 
    1. Go to the **Project Explorer** and open the behavior definition ![behaviordefinition](images/adt_bdef.png)**`ZR_TRAVEL###`**.  
    
-   2. In ![behaviordefinition](images/adt_bdef.png)**`ZR_TRAVEL###`**, add the fields **`SightseeingsTips`** and **`TotalPrice`** in *`field ( readonly )`* for **`ZR_TRAVEL###`**.
+   <!-- 2. In ![behaviordefinition](images/adt_bdef.png)**`ZR_TRAVEL###`**, add the fields **`SightseeingsTips`** and **`TotalPrice`** in *`field ( readonly )`* for **`ZR_TRAVEL###`**.
       
       ```ABAP
          field ( readonly )
@@ -457,8 +457,8 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
          UUID,
          ParentUUID,
          DiscountedFlightPrice;
-      ```
-   5. Your ![behaviordefinition](images/adt_bdef.png)**`ZR_TRAVEL###`** should look like this: 
+      ``` -->
+   2. Replace the behavior definition ![behaviordefinition](images/adt_bdef.png)**`ZR_TRAVEL###`** by the following (don't forget to replace the `###` with your Emixa initials): 
 
       ```ABAP
          managed implementation in class ZBP_R_TRAVEL### unique;
@@ -475,7 +475,7 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
          {
          field ( readonly )
          UUID,
-         // Added in step 2
+
          SightseeingsTips,
          TotalPrice,
          LocalCreatedBy,
@@ -484,7 +484,6 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
          LocalLastChangedAt,
          LastChangedAt;
 
-         // Added in step 3
          field ( mandatory : create )
          BeginDate,
          EndDate,
@@ -540,7 +539,6 @@ First, you'll create an ABAP package, a database table, and an ABAP class to pop
          field ( readonly )
          UUID,
          ParentUUID,
-         // Added in step 4
          DiscountedFlightPrice;
 
          field ( numbering : managed )
@@ -664,6 +662,8 @@ Now that you've...
 - published a local service point, and started the _Fiori elements App Preview_ in ADT, and
 - created an helper class,
 
-you can continue with the next exercise - **[Exercise 2: Enhance the CDS data model and create CDS unit tests](../ex02/README.md)**.
+❌ ~~you can continue with the next exercise - **[Exercise 2: Enhance the CDS data model and create CDS unit tests](../ex02/README.md)**~~.
+
+➡️ you can continue with the next exercise – **[Exercise 6: Utilize the ABAP AI SDK powered by Intelligent Scenario Lifecycle Management (ISLM)](../ex06/README.md)**
 
 ---
