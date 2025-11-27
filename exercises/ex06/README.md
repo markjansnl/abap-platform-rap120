@@ -362,6 +362,9 @@ Thank you for attending this workshop! 🎉🎉🎉
 
 ➡️ You are done with the hands-on. Thank you for attending!
 
+Groetjes,
+Mark en Luc
+
 [Home - RAP120](../../README.md)
 
 ---
