@@ -24,6 +24,7 @@ Now, let's get started!
 >>  -->
 
 - [Group ID](#group-id)
+- [Download the Eclipse IDE and add the ABAP Development Tools (ADT) Plugin](#download-and-install-adt)
 - [Create an _ABAP Cloud Project_ in ADT](#create-an-abap-cloud-project-in-adt)
 - [Helpful Information](#helpful-information)
 - [Summary](#summary)
@@ -65,6 +66,12 @@ _**No results**_ means this group ID seems to be available. You can note it as y
 Once you've found an available group ID, choose **Cancel**.
 
 </details>   
+
+## Download the Eclipse IDE and add the ABAP Development Tools (ADT) Plugin
+
+> For ABAP development you need the Eclipse IDE. After installing Eclipse, you have to install an additional package: ABAP Development Tools (ADT).
+
+Please follow steps 1 and 2 of the following tutorial: **[Download the Eclipse IDE and add the ABAP Development Tools (ADT) Plugin](https://developers.sap.com/tutorials/abap-install-adt.html)**
 
 ## Create an _ABAP Cloud Project_ in ADT
 
