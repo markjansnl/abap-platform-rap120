@@ -36,6 +36,7 @@ Now, let's get started!
 > and separate them from those of other users conducting the same workshop on this system.
 >
 > The group ID will be used to replace all occurences of the placeholder **`###`** in the different exercises of this workshop.
+> **Use your Emixa initials, for example: Mark Jans -> MJS**
 >
 > ⚠ **Please note:** ⚠    
 > If you've been assigned a group ID by the SAP team, then please skip this section and go directly ahead with the next one to create an _ABAP Cloud Project_ or an _ABAP Project_ in ADT.  
@@ -70,10 +71,8 @@ Once you've found an available group ID, choose **Cancel**.
 >
 > Create an _**ABAP Cloud Project**_ in your ADT installation to connect it to the *SAP BTP ABAP Environment* or *SAP S/4HANA Cloud (public edition)* system.
 >
-> ⚠️ Skip this step if you're working on _SAP S/4HANA system, on-prem or private cloud edition_, including CAL instances. 
-
-> ⚠ **Please note:** ⚠    
-> If you've already created an *ABAP Cloud Project* or an *ABAP Project* in the ABAP Development Tools for Eclipse (ADT), then skip this section.  
+> Emixa: Use the following URL:
+> **`https://my421801.s4hana.cloud.sap/ui#Shell-home`**
 
 
 <details>
