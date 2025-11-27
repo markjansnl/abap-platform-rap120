@@ -79,6 +79,8 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
           ENDMETHOD.
      ```
 
+     **Emixa: Feel free to change the system and/or user prompt.**
+
      <!-- The complete updated source code in the class should now look like this:   
 
      ```ABAP
