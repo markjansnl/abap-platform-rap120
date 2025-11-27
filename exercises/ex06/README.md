@@ -61,9 +61,9 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
               " User specific promt, including the city selection from the UI
               DATA(user_prompt)   = |The city is { iv_city }.|.
 
-              " create an instance of the ABAP AI SDK using the get method of cl_aic_islm_compl_api_factory and islm_scenario 'ZINTS_RAP120'
+              " create an instance of the ABAP AI SDK using the get method of cl_aic_islm_compl_api_factory and islm_scenario 'ZZMJ_AI_SCENARIO'
               TRY.
-                FINAL(api) =  cl_aic_islm_compl_api_factory=>get( )->create_instance( islm_scenario = 'ZINTS_RAP120' ).
+                FINAL(api) =  cl_aic_islm_compl_api_factory=>get( )->create_instance( islm_scenario = 'ZZMJ_AI_SCENARIO' ).
               CATCH cx_aic_api_factory INTO DATA(lx_api).
                 rv_sightseeing_tips = ''.
               ENDTRY.
@@ -79,7 +79,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
           ENDMETHOD.
      ```
 
-     The complete updated source code in the class should now look like this:   
+     <!-- The complete updated source code in the class should now look like this:   
 
      ```ABAP
          CLASS zcl_travel_helper_### DEFINITION
@@ -129,7 +129,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
 
               " create an instance of the ABAP AI SDK powered by ISLM
               TRY.
-                FINAL(api) =  cl_aic_islm_compl_api_factory=>get( )->create_instance( islm_scenario = 'ZINTS_RAP120' ).
+                FINAL(api) =  cl_aic_islm_compl_api_factory=>get( )->create_instance( islm_scenario = 'ZZMJ_AI_SCENARIO' ).
               CATCH cx_aic_api_factory INTO DATA(lx_api).
                 rv_sightseeing_tips = ''.
               ENDTRY.
@@ -145,7 +145,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
           ENDMETHOD.
 
        ENDCLASS.
-     ```
+     ``` -->
   4.  Save![save icon](images/adt_save.png) and activate![activate icon](images/adt_activate.png) the changes.
 
 </details>
@@ -215,7 +215,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
        ENDMETHOD.
      ```
 
-     The complete updated source code in the class should look like this: 
+     <!-- The complete updated source code in the class should look like this: 
 
      ```ABAP
        CLASS LHC_ZR_TRAVEL### DEFINITION INHERITING FROM CL_ABAP_BEHAVIOR_HANDLER.
@@ -322,7 +322,7 @@ In this exercise, you will learn how to use the ABAP AI SDK powered by Intellige
        ENDMETHOD.
 
        ENDCLASS.
-     ```
+     ``` -->
 
   6. Save![save icon](images/adt_save.png) and activate![activate icon](images/adt_activate.png) the changes in ![class icon](images/adt_class.png)**`ZBP_R_TRAVEL###`**.  
 
@@ -358,7 +358,9 @@ Now that you've...
 
 Thank you for attending this workshop! 🎉🎉🎉
 
-As **optional**, you can continue with the next exercise – **[Exercise 7: Try out the ABAP Cloud Generator: Transactional App from Scratch](../ex07/README.md)**
+❌ ~~As **optional**, you can continue with the next exercise – **[Exercise 7: Try out the ABAP Cloud Generator: Transactional App from Scratch](../ex07/README.md)**~~
+
+➡️ You are done with the hands-on. Thank you for attending!
 
 [Home - RAP120](../../README.md)
 
