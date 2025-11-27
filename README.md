@@ -23,7 +23,7 @@ Please edit this file as it is the primary description file for your project. Yo
 
 <!-- # RAP120 - Build SAP Fiori Apps with ABAP Cloud and SAP Joule for developers -->
 
-# Hands-on knowledge evening AI within Emixa EES
+# Hands-on knowledge session AI within Emixa EES
 
 <!-- Please include descriptive title test -->
 
