@@ -35,7 +35,7 @@ Please edit this file as it is the primary description file for your project. Yo
 ## Description
 <!-- Please include SEO-friendly description -->
 
-This repository contains the material for the TechEd 2025 hands-on session **RAP120 - Build SAP Fiori Apps with ABAP Cloud and SAP Joule for developers**💎. The materials are altered for the AI workshop within Emixa EES on 27 November 2025.
+This repository contains the material for the TechEd 2025 hands-on session **RAP120 - Build SAP Fiori Apps with ABAP Cloud and SAP Joule for developers**💎. The materials are altered for the AI workshop within Emixa EES on 📅 27 November 2025.
 
 **Table of Content**
 - [Requirements for attending this workshop](#requirements-for-attending-this-workshop)
