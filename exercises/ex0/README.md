@@ -36,7 +36,8 @@ Now, let's get started!
 > and separate them from those of other users conducting the same workshop on this system.
 >
 > The group ID will be used to replace all occurences of the placeholder **`###`** in the different exercises of this workshop.
-> **Use your Emixa initials, for example: Mark Jans -> MJS**
+>
+> **Use your Emixa initials, for example: Mark Jans -> `MJS`**
 >
 > ⚠ **Please note:** ⚠    
 > If you've been assigned a group ID by the SAP team, then please skip this section and go directly ahead with the next one to create an _ABAP Cloud Project_ or an _ABAP Project_ in ADT.  
