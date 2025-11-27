@@ -24,7 +24,7 @@ Now, let's get started!
 >>  -->
 
 - [Group ID](#group-id)
-- [Download the Eclipse IDE and add the ABAP Development Tools (ADT) Plugin](#download-and-install-adt)
+- [Download the Eclipse IDE and add the ABAP Development Tools (ADT) Plugin](#download-the-eclipse-ide-and-add-the-abap-development-tools-adt-plugin)
 - [Create an _ABAP Cloud Project_ in ADT](#create-an-abap-cloud-project-in-adt)
 - [Helpful Information](#helpful-information)
 - [Summary](#summary)
